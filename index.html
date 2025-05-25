@@ -30,6 +30,14 @@
         font-size: 5rem;
         right: 10%;
       }
+
+      .gradient-background {
+        background: #4a4a4a;
+        background: -webkit-linear-gradient(0deg, rgba(74, 74, 74, 0.8) 0%, rgba(0, 0, 0, 0.97) 100%);
+        background: -moz-linear-gradient(0deg, rgba(74, 74, 74, 0.8) 0%, rgba(0, 0, 0, 0.97) 100%);
+        background: linear-gradient(0deg, rgba(74, 74, 74, 0.8) 0%, rgba(0, 0, 0, 0.97) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4A4A4A", endColorstr="#000000", GradientType=0);
+      }
     }
   </style>
   <title>Kegiatan PKL</title>
@@ -37,7 +45,7 @@
 
 <body class="font-nunito">
   <!-- into section -->
-  <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 to-slate-900 relative overflow-hidden">
+  <div class="h-[50vh] lg:h-screen gradient-background relative overflow-hidden">
     <!-- navbar -->
     <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
       <div class="container mx-auto py-5 flex items-center justify-between">
